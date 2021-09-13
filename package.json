@@ -1,0 +1,29 @@
+{
+  "name": "create-chrome-extension-cli",
+  "version": "0.1.2",
+  "description": "A cli for creating development configuration of Chrome extension.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AngusFan-GH/create-chrome-extension-cli.git"
+  },
+  "keywords": [
+    "chrome-extension"
+  ],
+  "author": "Angus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AngusFan-GH/create-chrome-extension-cli/issues"
+  },
+  "homepage": "https://github.com/AngusFan-GH/create-chrome-extension-cli#readme",
+  "dependencies": {
+    "commander": "^8.2.0"
+  },
+  "bin": {
+    "cce-cli": "./index.js"
+  }
+}
